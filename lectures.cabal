@@ -1,0 +1,33 @@
+cabal-version: 3.0
+name:          lectures
+version:       0.1.0.0
+
+library
+  exposed-modules:  ScndLecture
+  build-depends:
+    , base
+    , text
+
+  default-language: Haskell2010
+  hs-source-dirs:   src
+
+executable lectures
+  main-is:          Main.hs
+  build-depends:
+    , base
+    , lectures
+
+  default-language: Haskell2010
+  hs-source-dirs:   app
+
+test-suite tests
+  build-depends:
+    , base
+    , lectures
+    , tasty
+    , tasty-hunit
+
+  default-language: Haskell2010
+  main-is:          Test.hs
+  type:             exitcode-stdio-1.0
+  hs-source-dirs:   test
