@@ -1,6 +1,10 @@
-cabal-version: 3.0
-name:          lectures
-version:       0.1.0.0
+cabal-version:      3.0
+name:               lectures
+version:            0.1.0.0
+description:
+  Please see the README on GitHub at <https://github.com/lenchevskii/ru-haskell-lectures#readme>
+
+extra-source-files: README.md
 
 library
   exposed-modules:  ScndLecture
