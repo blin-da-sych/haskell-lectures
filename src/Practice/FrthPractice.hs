@@ -1,4 +1,4 @@
-module Practice.FrthPractice (Solution, solveSquare) where 
+module Practice.FrthPractice (Solution, solveSquare) where
 
 -- | data type to define square roots representation
 data Solution a = Endless | NoRoots | RootList a

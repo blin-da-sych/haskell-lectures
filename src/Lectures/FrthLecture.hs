@@ -1,4 +1,4 @@
-{-# LANGUAGE NamedFieldPuns #-}
+{-# LANGUAGE NamedFieldPuns  #-}
 {-# LANGUAGE RecordWildCards #-}
 
 module Lectures.FrthLecture where
@@ -10,7 +10,7 @@ type Age = Int
 
 data TCharacter = DCharacter -- TCharacter - type; DCharacter - data constructor/deconstructor
   { quality :: Quality,
-    age :: Age
+    age     :: Age
   }
   deriving (Show)
 
@@ -40,6 +40,6 @@ deconstructCharacterI DCharacter {quality, age} = (quality, age)
 deconstructCharacterSmartI :: TCharacter -> (Quality, Age)
 deconstructCharacterSmartI DCharacter {..} = (quality, age)
 
--- Σ-type - тип-сумма (or tagged union / variant record / coproduct) 
+-- Σ-type - тип-сумма (or tagged union / variant record / coproduct)
 data Either a b = Left a | Right b
 -- Maybe a ~ Either () a
