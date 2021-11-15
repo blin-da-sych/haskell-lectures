@@ -1,8 +1,8 @@
 {-# OPTIONS -Wall #-}
 
-import            ScndLecture       (solveSquare)
-import            Test.Tasty        (TestTree, defaultMain, testGroup)
-import            Test.Tasty.HUnit  (assertBool, testCase)
+import            Lectures.ScndLecture  (solveSquare)
+import            Test.Tasty            (TestTree, defaultMain, testGroup)
+import            Test.Tasty.HUnit      (assertBool, testCase)
 
 main :: IO ()
 main = defaultMain tests
