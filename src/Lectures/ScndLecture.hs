@@ -1,6 +1,6 @@
 {-# OPTIONS -Wall #-}
 
-module ScndLecture (solveSquare) where
+module Lectures.ScndLecture (solveSquare) where
 
 -- | Solve equation of kind @ax² + bx + c@
 solveSquare :: Double -> Double -> Double -> [Double]

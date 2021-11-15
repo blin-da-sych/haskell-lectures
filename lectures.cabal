@@ -7,7 +7,10 @@ description:
 extra-source-files: README.md
 
 library
-  exposed-modules:  ScndLecture
+  exposed-modules:
+    Lectures.FrthLecture
+    Lectures.ScndLecture
+
   build-depends:
     , base
     , text

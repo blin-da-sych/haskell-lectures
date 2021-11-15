@@ -1,6 +1,6 @@
 {-# OPTIONS -Wall #-}
 
-import ScndLecture (solveSquare)
+import Lectures.ScndLecture (solveSquare)
 
 main :: IO ()
 main = print $ solveSquare 1 2 1
