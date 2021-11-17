@@ -1,8 +1,8 @@
 {-# OPTIONS -Wall #-}
 
-import           Lectures.ScndLecture (solveSquare)
+import           Lectures.FfthLecture (mainTool)
 
 main :: IO ()
-main = print $ solveSquare 1 2 1
+main = mainTool
 
 -- $> main

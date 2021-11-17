@@ -6,35 +6,39 @@ description:
 
 extra-source-files: README.md
 
+common language
+  build-depends:    base
+  default-language: Haskell2010
+
 library
+  import:          language
   exposed-modules:
+    Lectures.FfthLecture
     Lectures.FrthLecture
     Lectures.ScndLecture
 
   build-depends:
-    , base
+    , optparse-applicative
     , text
 
-  default-language: Haskell2010
-  hs-source-dirs:   src
+  hs-source-dirs:  src
 
 executable lectures
-  main-is:          Main.hs
+  import:         language
+  main-is:        Main.hs
   build-depends:
-    , base
     , lectures
+    , optparse-applicative
 
-  default-language: Haskell2010
-  hs-source-dirs:   app
+  hs-source-dirs: app
 
 test-suite tests
+  import:         language
   build-depends:
-    , base
     , lectures
     , tasty
     , tasty-hunit
 
-  default-language: Haskell2010
-  main-is:          Test.hs
-  type:             exitcode-stdio-1.0
-  hs-source-dirs:   test
+  main-is:        Test.hs
+  type:           exitcode-stdio-1.0
+  hs-source-dirs: test
