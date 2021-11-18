@@ -16,11 +16,9 @@ library
     Lectures.FfthLecture
     Lectures.FrthLecture
     Lectures.ScndLecture
+    Practice.SxthPractice
 
-  build-depends:
-    , optparse-applicative
-    , text
-
+  build-depends:   optparse-applicative
   hs-source-dirs:  src
 
 executable lectures
