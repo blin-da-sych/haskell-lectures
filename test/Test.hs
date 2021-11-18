@@ -21,7 +21,7 @@ tests =
         assertBool "[1.0, 1.0] are expected" $
           solveSquare 1 (-2) 1 == [1.0, 1.0]
     , testCase "- λ-Calculus imitation: \\y -> \\x -> x y" $
-        assertBool "\"\\y -> \\x -> x y\" are expected" $
+        assertBool "\\y -> \\x -> x y are expected" $
           show (Abstraction "y" (Abstraction "x" (Application (Variable "x") (Variable "y"))))
           == "\\y -> \\x -> x y"
     ]
