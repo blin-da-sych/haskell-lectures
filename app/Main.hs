@@ -1,8 +1,9 @@
 {-# OPTIONS -Wall #-}
 
-import           Lectures.FfthLecture (mainTool)
+-- import           Lectures.FfthLecture  (mainTool)
+import           Lectures.SvnthLecture (mainRandomMap)
 
 main :: IO ()
-main = mainTool
+main = mainRandomMap
 
 -- $> main

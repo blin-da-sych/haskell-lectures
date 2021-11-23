@@ -7,7 +7,10 @@ description:
 extra-source-files: README.md
 
 common language
-  build-depends:    base
+  build-depends:
+    , base
+    , random
+
   default-language: Haskell2010
 
 library
@@ -16,6 +19,7 @@ library
     Lectures.FfthLecture
     Lectures.FrthLecture
     Lectures.ScndLecture
+    Lectures.SvnthLecture
     Practice.SxthPractice
 
   build-depends:   optparse-applicative
