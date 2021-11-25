@@ -10,6 +10,7 @@ common language
   build-depends:
     , base
     , random
+    , vector
 
   default-language: Haskell2010
 
@@ -21,6 +22,7 @@ library
     Lectures.ScndLecture
     Lectures.SvnthLecture
     Practice.SxthPractice
+    Lectures.EightLecture
 
   build-depends:   optparse-applicative
   hs-source-dirs:  src
@@ -33,6 +35,14 @@ executable lectures
     , optparse-applicative
 
   hs-source-dirs: app
+
+-- executable clasters
+--   import:        language
+--   main-is:       Main.hs
+--   build-depends:
+--     , random
+--     , vector
+--   hs-source-dirs: clasters
 
 test-suite tests
   import:         language
