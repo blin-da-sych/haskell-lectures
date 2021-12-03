@@ -52,4 +52,4 @@ for (x:xs) action = liftA2 (:) (action x) $ for xs action
 -- (:)        ::   b ->   [b] ->   [b]
 -- liftA2 (:) :: f b -> f [b] -> f [b]
 liftA2 :: Applicative f => (a1 -> a2 -> b) -> f a1 -> f a2 -> f b
-liftA2 f x y = pure f <*> x <*> y
+liftA2 f x y = f <$> x <*> y -- ~ liftA2 f x y = pure f <*> x <*> y
