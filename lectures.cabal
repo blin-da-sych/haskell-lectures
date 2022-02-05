@@ -17,12 +17,14 @@ common language
 library
   import:          language
   exposed-modules:
+    Lectures.EighthLecture
+    Lectures.ElvnthLecture
     Lectures.FfthLecture
     Lectures.FrthLecture
     Lectures.ScndLecture
     Lectures.SvnthLecture
+    Lectures.TnthLecture
     Practice.SxthPractice
-    Lectures.EightLecture
 
   build-depends:   optparse-applicative
   hs-source-dirs:  src
