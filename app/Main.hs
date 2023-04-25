@@ -1,9 +1,9 @@
 {-# OPTIONS -Wall #-}
 
--- import           Lectures.FfthLecture  (mainTool)
-import           Lectures.SvnthLecture (mainRandomMap)
+module Main where
+import           Lectures.Lecture_07 (mainRandomMap)
 
 main :: IO ()
 main = mainRandomMap
 
--- $> main
+-- -- $> main

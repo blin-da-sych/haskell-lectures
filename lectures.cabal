@@ -1,8 +1,8 @@
-cabal-version:      3.0
+cabal-version:      3.6
 name:               lectures
 version:            0.1.0.0
 description:
-  Please see the README on GitHub at <https://github.com/lenchevskii/ru-haskell-lectures#readme>
+  Please see the README on GitHub at <https://github.com/lenchevskii/haskell-lectures#readme>
 
 extra-source-files: README.md
 
@@ -37,7 +37,7 @@ executable lectures
     , lectures
     , optparse-applicative
 
-  hs-source-dirs: app
+  hs-source-dirs: app src
 
 -- executable clasters
 --   import:        language
