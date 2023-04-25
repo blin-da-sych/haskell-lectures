@@ -1,13 +1,13 @@
 {-# LANGUAGE InstanceSigs #-}
 
-module Practice.ElvnthPractice where
+module Practice.Practice_11 where
 
-import           Lectures.ElvnthLecture (State (..), Writer (..))
-import           Lectures.TnthLecture   (Reader (..))
+import           Lectures.Lecture_10 (Reader (..))
+import           Lectures.Lecture_11 (State (..), Writer (..))
 
 instance Monad (Reader r) where
   (>>=) :: Reader r a -> (a -> Reader r b) -> Reader r b
-  (>>=) (R f) k = R _
+  (>>=) (R f) k = R undefined
 
 -- -- $> R (not)
 

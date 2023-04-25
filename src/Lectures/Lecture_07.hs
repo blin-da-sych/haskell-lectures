@@ -1,6 +1,6 @@
 {-# LANGUAGE FlexibleContexts #-}
 
-module Lectures.SvnthLecture (mainRandomMap) where
+module Lectures.Lecture_07 (mainRandomMap) where
 
 import           Control.Monad (replicateM)
 import           Data.Bool     (bool)

@@ -1,14 +1,13 @@
-module Lectures.FfthLecture (mainTool) where
+module Lectures.Lecture_05 (mainTool) where
 
 import           Control.Applicative      ((<**>))
+import           Lectures.Lecture_02      (solveSquare)
 import           Options.Applicative      (Parser, ParserInfo, argument, auto,
                                            execParser, fullDesc, header, help,
                                            helper, info, long, metavar, option,
                                            progDesc, short, value)
 import           System.Environment       (getArgs)
 import           System.Environment.Blank (getProgName)
-
-import           Lectures.ScndLecture     (solveSquare)
 
 data Language = En | Fr
   deriving (Show, Read)
@@ -50,7 +49,7 @@ parser =
 -- argument и option - это парсеры
 
 -- Есть два типа программных элементов:
--- • функция    - это вычисление значений 
+-- • функция    - это вычисление значений
 -- • действие   - это эффект
 
 -- <$> - fmap

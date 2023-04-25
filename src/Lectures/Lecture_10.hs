@@ -1,6 +1,6 @@
 {-# LANGUAGE InstanceSigs #-}
 
-module Lectures.TnthLecture (Reader(..)) where
+module Lectures.Lecture_10 (Reader(..)) where
 
 -- import           Prelude hiding (Applicative, pure, (<*>))
 

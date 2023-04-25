@@ -1,4 +1,4 @@
-module Lectures.EighthLecture where
+module Lectures.Lecture_08 where
 
 import           Control.Monad (replicateM)
 import           Data.Bool     (bool)

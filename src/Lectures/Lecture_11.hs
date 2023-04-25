@@ -1,7 +1,7 @@
 {-# LANGUAGE InstanceSigs #-}
 {-# LANGUAGE TupleSections #-}
 
-module Lectures.ElvnthLecture where
+module Lectures.Lecture_11 where
 
 newtype Writer w a = W (a, w)
   deriving Show

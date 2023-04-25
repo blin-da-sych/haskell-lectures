@@ -1,4 +1,4 @@
-module Practice.SxthPractice (Expression(Variable, Application, Abstraction)) where
+module Practice.Practice_06 (Expression(Variable, Application, Abstraction)) where
 
 -- Lambda Calculus imitation
 

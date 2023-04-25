@@ -1,7 +1,7 @@
 {-# LANGUAGE NamedFieldPuns  #-}
 {-# LANGUAGE RecordWildCards #-}
 
-module Lectures.FrthLecture where
+module Lectures.Lecture_04 where
 
 data Quality = Ugly | Bad | Normal | Good
   deriving (Eq, Ord, Show)

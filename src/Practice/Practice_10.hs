@@ -1,6 +1,6 @@
 {-# LANGUAGE InstanceSigs #-}
 
-module Practice.TnthPractice where
+module Practice.Practice_10 where
 
 import           Control.Applicative (Applicative (liftA2))
 

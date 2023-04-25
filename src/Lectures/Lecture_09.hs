@@ -1,4 +1,4 @@
-module Lectures.NnthLecture where
+module Lectures.Lecture_09 where
 
 -- Eager (strict) languages - values are computed straightaway
 
